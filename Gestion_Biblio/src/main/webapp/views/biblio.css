@@ -1,0 +1,61 @@
+/* Style pour les boutons */
+.btn {
+    margin-right: 5px;
+}
+
+/* Style pour les cellules du tableau */
+.table {
+    width: 100%;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-data {
+    flex: 1;
+    text-align: center;
+    display: flex;
+}
+
+/* Style pour les icônes des boutons */
+.btn i.fa {
+    margin-right: 5px; /* Marge à droite de l'icône */
+    vertical-align: middle; /* Alignement vertical au centre */
+}
+
+/* Style pour les liens dans la table */
+.filter__link {
+    text-decoration: none; /* Supprimer le soulignement */
+    color: skyblue; /* Couleur du texte */
+}
+
+/* Style pour les éléments de l'en-tête et les cellules de données */
+.header__item,
+.table-data {
+    text-align: center;
+    padding: 10px; /* Ajustez la valeur selon vos préférences */
+}
+
+/* Style pour les boutons "Modifier" */
+.btn-info {
+    background-color: #007bff; /* Couleur bleu ciel */
+    border-color: #007bff; /* Couleur de la bordure */
+}
+
+/* Style pour les boutons "Supprimer" */
+.btn-danger {
+    background-color: rgb(242, 28, 28); /* Couleur rouge */
+    border-color: red; /* Couleur de la bordure */
+}
